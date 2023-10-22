@@ -1,11 +1,308 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Disfruta de Netflix, películas y series en streaming en tu smart TV, consola, PC, Mac, móvil, tableta y más dispositivos."/>
+    <title>Netflix España - Ver series en línea, ver películas en línea</title>
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/floating-labels/" >
+    <link href="../assets/dist/css/bootstrap.css" rel="stylesheet" >
+    <link href="floating-labels.css" rel="stylesheet" >
+    <link href="css/style.css" rel="stylesheet" /> 
+  </head>
+
+  <body>
+    <main class="nada-container-fluid">
+      <!---->
+      <section id="backGround">
+        <div class="nada-container-fluid relative">
+          <header>
+            <img src="img/logo-Netflix.png" alt="Responsive image LOGO" class="img-fluid" />
+            <button type="button" class="btn nada-btn-danger">Sign In</button>
+          </header>
+        </div>
+        <div class="nada-jumbotron nada-jumbotron-fluid relative mt-5">
+          <h1>Unlimited movies, TV shows, and more</h1>
+          <p class="lead">Watch anywhere, Cancle anytime</p>
+          <form method="POST" action="/action_page.php"  class="form-signin needs-validation" novalidate >
+            <div class="row no-gutters justify-content-center">
+              <div class="col-12 first">
+              </div>                          
+              <div class="col-12 col-lg-9 second form-label-group my-4">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                maxlength="50" minlength="5" required>
+                <div class="valid-feedback"> Perfecto. Sigue con el próximo paso!</div>
+                <div class="invalid-feedback"> El correo es obligatorio. </div>
+                <label for="inputEmail">Email address</label>
+              </div>
+              <div class="col-12 col-lg-3 third my-4">
+                <button class="nada-suscribe" type="submit">GET STARTED<i class="nada-arrow nada-right"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+<!--------------03 equal section-->
+      <section>
+        <div class="nada-container my-5">
+          <div class="row">
+            <div class="col-12 col-lg-6 text-lg-left">
+              <h2>Lupin on Netflix</h2>
+              <p> Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.</p>
+            </div>
+            <div class="col-12 col-lg-6">
+              <img src="img/lupin-Besar.jpg" alt="Responsive image television" class="img-fluid w-75" />
+            </div>
+          </div>
+        </div>
+      </section>
+<!---->
+      <section>
+        <div class="nada-container revers my-5">
+          <div class="row">
+            <div class="col col-lg-6 order-first order-lg-last text-lg-left" >
+              <h2>About Lupin</h2>
+              <p>Arsène Lupin is a fictional character created by Maurice Leblanc, known as the "gentleman thief" and master of disguise. He is a suave and morally ambiguous figure, renowned for his clever heists, quick thinking, and resourcefulness. Despite his criminal activities, Lupin adheres to his own code of ethics and often targets the corrupt. His romantic and charismatic persona adds depth to his character, making him an enduring and iconic figure in French literature. The character's legacy includes numerous adaptations in film and television, with a 2021 Netflix series, "Lupin," reintroducing him to a modern audience.
+              </p>
+            </div>
+            <div class="col col-lg-6">
+              <img src="img/lupin-hp.jpg" alt="Responsive image mobile" class="img-fluid w-50" />
+            </div>
+          </div>
+        </div>
+      </section>
+<!---->
+      <section>
+        <div class="nada-container my-5">
+          <div class="row">
+            
+            <div class="col-12 col-lg-4 text-lg-left">
+              <h2>Movie based on Book</h2>
+              <p>The Lupin movie, adapted from Maurice Leblanc's iconic literary character Arsène Lupin, beautifully captures the essence of the charming "gentleman thief." Drawing inspiration from Leblanc's original stories, the film portrays Lupin's masterful skills in disguise and his ingenious heists, providing a thrilling narrative of quick thinking and resourcefulness as he outwits both the law and his targets. With a focus on his suave persona and complex moral code, the Lupin movie successfully translates the beloved character to the big screen, making it a must-watch for fans of the books and anyone seeking a captivating blend of mystery, adventure, and intrigue. Maurice Leblanc's original Lupin series is a timeless literary treasure, renowned for its clever storytelling, intricate plots, and the moral ambiguity that surrounds the charismatic gentleman thief, leaving an enduring mark on the mystery and adventure genre and inspiring numerous adaptations over the years.
+              </p>
+            
+            </div>
+            <div class="col-lg-8">
+            <div class="row-12">
+              <img src="img/lupin-1.jpg" alt="Responsive image device" class="img-fluid nada-w h-full"/>
+              <img src="img/lupin-2.jpeg" alt="Responsive image device" class="img-fluid nada-w"/>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+<!----------------------accordion-->
+      <section>
+        <div class="nada-container">
+          <h3>Frequent questions</h3>
+          <div id="accordion" class="mb-5">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >
+                  What is Netflix?
+                  <svg viewBox="0 0 26 26" class="svg-icon svg-closed rotated" focusable="true" >
+                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                  </svg>
+                </button>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" >
+                <div class="card-body">Netflix is a service that lets you watch lots of movies and TV shows on your computer, phone, or TV for a monthly fee. It has its own special movies and shows too, which are called "Netflix Originals." You can choose what you want to watch from a big collection of stuff. It's like having a huge library of movies and shows that you can watch whenever you want.
+                </div>
+                <div class="card-body">
+                  You can watch as much content as you want, whenever you want, without a single ad for one low monthly fee. There's always something new to discover, and new series and movies are added every week!
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
+                  How much does Netflix cost?
+                  <svg viewBox="0 0 26 26" class="svg-icon svg-closed rotated" focusable="true" >
+                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                  </svg>
+                </button>
+              </div>
+              <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion" >
+                <div class="card-body">
+                  Netflix subscription plans in Indonesia typically include the Mobile Plan at IDR 49,000 per month for one mobile or tablet device in standard definition, the Basic Plan at IDR 109,000 for one device in standard definition, the Standard Plan at IDR 139,000 per month for two devices in high definition, and the Premium Plan at IDR 169,000 per month for up to four devices in high definition or 4K Ultra HD where available. 
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Where can i watch netflix?
+                  <svg viewBox="0 0 26 26" class="svg-icon svg-closed rotated" focusable="true">
+                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                  </svg>
+                </button>
+              </div>
+              <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  you can watch Netflix on various devices with an internet connection, including smartphones, tablets, computers, smart TVs, streaming media players, gaming consoles, set-top boxes, Blu-ray players, and home theater systems. To access Netflix, you'll need to subscribe to one of their plans, and once you have an active subscription, you can log in to your Netflix account on any of the supported devices to start streaming their extensive library of content.
+                <div class="card-body">
+                  You can also download your favorite series with the iOS, Android or Windows 10 application. Use downloads to watch titles wherever you go and when you don't have an internet connection. Netflix is always with you.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <button  class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"  >
+                  How do I cancel?
+                  <svg viewBox="0 0 26 26" class="svg-icon svg-closed rotated" focusable="true" >
+                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                  </svg>
+                </button>
+              </div>
+              <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+                  Netflix is flexible. No cumbersome contracts or commitments. You can easily cancel your account online with just two clicks. No cancellation fees: you can activate or cancel your account at any time.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                  What can I watch on Netflix?
+                  <svg viewBox="0 0 26 26" class="svg-icon svg-closed rotated" focusable="true" >
+                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z" ></path>
+                  </svg>
+                </button>
+              </div>
+              <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordion" >
+                <div class="card-body">
+                  Netflix offers a wide library of award-winning Netflix Originals, anime titles, TV series, documentaries, feature films, and other content. Watch all the content you want, whenever you want.
+                </div>
+              </div>
+            </div>
+          </div>
+          <form method="POST" action="/action_page.php" class="form-signin needs-validation" novalidate>
+            <div class="row no-gutters justify-content-center">
+              <div class="col-12 first">
+                <p>Do you want to see something now? Enter your email to create a Netflix subscription or reactivate it.</p>
+              </div>                          
+              <div class="col-12 col-lg-9 second form-label-group my-4">
+                <input type="email" id="inEmail" class="form-control" placeholder="Correo electrónico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                maxlength="50" minlength="5" required>
+                <div class="valid-feedback">Perfect. Continue with the next step!</div>
+                <div class="invalid-feedback">The email is mandatory. </div>
+                <label for="inEmail">Email address.</label>
+              </div>
+              <div class="col-12 col-lg-3 third my-4">
+                <button class="nada-suscribe" type="submit">Start<i class="nada-arrow nada-right"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div class="nada-container">
+      <h2>Contact Us</h2>
+      <form id="validationForm">
+          <div class="form-group">
+              <label for="nama">Name:</label>
+              <input type="text" class="form-control" id="nama" name="nama" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="pesan">Message:</label>
+              <textarea class="form-control" id="pesan" name="pesan" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+  </div>
+
+    <!---footer---------->
+    <footer class="page-footer font-small blue text-muted">
+      <div class="nada-container text-left">
+        <div class="row justify-content-space-between">
+          <div class="col-12 mt-5 mb-2">
+            <p class="h5 text-capitalize">Questions? Call 0822 2889 8009</p>
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3" />
+          <div class="col-6 col-sm-4 col-md-3">
+            <ul class="list-unstyled articles mb-4">
+              <li>
+                <a href="#">Frequently asked questions.</a>
+              </li>
+              <li>
+                <a href="#">Investors.</a>
+              </li>
+              <li>
+                <a href="#">Ways to watch.</a>
+              </li>
+              <li>
+                <a href="#">Corporate information.</a>
+              </li>
+              <li>
+                <a href="#">Netflix Originals.</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <ul class="list-unstyled articles mb-4">
+              <li>
+                <a href="#">Help center.</a>
+              </li>
+              <li>
+                <a href="#">employment</a>
+              </li>
+              <li>
+                <a href="#">Terms of Use</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <ul class="list-unstyled articles mb-4">
+              <li>
+                <a href="#">Redeem gift cards </a>
+              </li>
+              <li>
+                <a href="#">Privacidad</a>
+              </li>
+              <li>
+                <a href="#">Speed test</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <ul class="list-unstyled articles mb-4">
+              <li>
+                <a href="#">Press area</a>
+              </li>
+              <li>
+                <a href="#">Gift card purchases</a>
+              </li>
+              <li>
+                <a href="#">Cookie preferences</a>
+              </li>
+              <li>
+                <a href="#">Legal notices</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        
+        
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"  crossorigin="anonymous" ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+  </body>
 </html>
