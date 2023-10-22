@@ -51,7 +51,7 @@ body {
 
 #backGround:before {
     content: "";
-    /* background-image: url(../img/bg-hero.jpg); */
+    background-image: url(../img/bg-hero.jpg);
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -103,6 +103,7 @@ section {
 
 .nada-jumbotron {
     background-color: transparent !important;
+    height: 400px;
 }
 
 .nada-jumbotron-fluid {
